@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  border: 6px solid #333333;
+  height: auto; 
+  width: auto;
+
+  display: flex;
+  justify-content: space-between;
+  
+  flex-wrap: wrap;
+  
+}
+
+
+.item {
+  
+  color:#fff;
+  background-color: rgb(39, 138, 9);
+  padding: 0.9;
+  width: 30%;
+  
+}
+
+.pic {
+  
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+  
+}
+  
+h2 {
+  text-align: center ;
+  margin: 5px;
+  
+}
+
+.enlarge:hover 
+  {
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+footer{
+  
+ background-color: green;
+  color: aliceblue;
+  width: auto;
+  margin: 0px 5px;
+  padding: 5;
+  
+
+}
+
+  span{
+    display: flex;
+    float: right;
+    
+    
+}
+
+h1{
+  color: aliceblue;
+  text-align: center;
+}
+
+
