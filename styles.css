@@ -42,7 +42,7 @@ h2 {
 }
 
 footer {
-  background-color: green;
+  background-color: rgb(39, 138, 9);
   color: aliceblue;
   width: auto;
   margin: 0px 5px;
@@ -84,10 +84,15 @@ p {
   text-align:center;
 }
 
-.tele {
+#tele {
   margin-right: 10px;
-}
+  margin-left: 10px;
+    }
 
 #feedback {
   margin-left: 10px;
+}
+
+p{
+  color: #fff;
 }
