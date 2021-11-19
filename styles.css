@@ -12,7 +12,7 @@ body {
 
   display: flex;
   justify-content: space-around;
-
+  margin-left: 120px;
   flex-wrap: wrap;
 }
 
@@ -57,4 +57,25 @@ span {
 h1 {
   color: aliceblue;
   text-align: center;
+}
+
+div a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  
+}
+
+.sidenav {
+  height: 10px;
+}
+
+.lorem {
+  color: #fff;
+}
+
+.sidenav a:hover {
+  color: #fff;
 }
