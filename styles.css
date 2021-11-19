@@ -9,7 +9,7 @@ body {
   border: 6px solid #333333;
   height: auto;
   width: auto;
-
+  
   display: flex;
   justify-content: space-around;
   margin-left: 120px;
@@ -22,7 +22,7 @@ body {
   padding: 0.9;
   width: 30%;
   margin: 5px;
-}
+  }
 
 .pic {
   width: auto;
@@ -34,7 +34,7 @@ body {
 h2 {
   text-align: center;
   margin: 5px;
-}
+  }
 
 .enlarge:hover {
   transform: scale(1.5);
@@ -62,15 +62,15 @@ h1 {
 div a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #818181;
   display: block;
-  
-}
+  width: auto;
+  }
 
 .sidenav {
   height: 10px;
-}
+  }
 
 .lorem {
   color: #fff;
@@ -78,4 +78,16 @@ div a {
 
 .sidenav a:hover {
   color: #fff;
+}
+
+p {
+  text-align:center;
+}
+
+.tele {
+  margin-right: 10px;
+}
+
+#feedback {
+  margin-left: 10px;
 }
